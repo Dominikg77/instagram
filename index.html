@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picturegram</title>
+    <link rel="icon" href="img/instagram.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="render()">
+    <!--Header-->
+    <header>
+        <div class="header-container">
+            <div>
+                <h1>Picturegram</h1>
+            </div>
+
+            <div class="header-input">
+                <input type="search" placeholder="suche" onkeydown="filterNames()" id="search">
+            </div>
+            <div class="header-icon">
+                <img src="img/haus.png">
+                <img src="img/flieger.png">
+                <img src="img/plus.png">
+                <img src="img/kompass.png">
+                <img src="img/herz.png">
+                <span class="header-profil-img">
+    <img src="img/Profil.png" >
+</span>
+            </div>
+        </div>
+    </header>
+
+    <!--Nav-->
+    <div class="body-container">
+        <nav>
+            <div class="profilbilder-container">
+                <div class="profilbilder-nav">
+                    <span>
+             <img src="img/portrai1.jpg">
+             <p>Chris</p>
+             </span>
+                    <span>
+             <img src="img/portrai2.jpg">
+             <p>Laura</p>
+             </span>
+                    <span>
+            <img src="img/portrai3.jpg">
+            <p>Julia</p>
+            </span>
+                    <span>
+            <img src="img/portrai4.jpg">
+             <p>Franco</p>
+             </span>
+                    <span>
+            <img src="img/portrai5.jpg">
+             <p>Sabrina</p>
+             </span>
+                    <span>
+             <img src="img/portrai6.jpg">
+             <p>Michelle</p>
+             </span>
+                    <span>
+             <img src="img/portrai7.jpg">
+             <p>Isabella</p>
+             </span>
+
+                </div>
+            </div>
+        </nav>
+        <!--Post-->
+        <div class="post-container-class" id="post-container">
+        </div>
+    </div>
+
+    <!--offen
+    <div class="body-right">
+
+    </div>
+-->
+</body>
+
+</html>
